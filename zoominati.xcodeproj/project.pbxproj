@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BAFF8781BC05B730025A596 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFF8771BC05B730025A596 /* AppDelegate.swift */; };
+		7BAFF87A1BC05B730025A596 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFF8791BC05B730025A596 /* ViewController.swift */; };
+		7BAFF87D1BC05B730025A596 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFF87B1BC05B730025A596 /* Main.storyboard */; };
+		7BAFF87F1BC05B730025A596 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFF87E1BC05B730025A596 /* Images.xcassets */; };
+		7BAFF8821BC05B730025A596 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BAFF8801BC05B730025A596 /* LaunchScreen.xib */; };
+		7BAFF88E1BC05B730025A596 /* zoominatiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BAFF88D1BC05B730025A596 /* zoominatiTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7BAFF8881BC05B730025A596 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7BAFF86A1BC05B730025A596 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BAFF8711BC05B730025A596;
+			remoteInfo = zoominati;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BAFF8721BC05B730025A596 /* zoominati.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zoominati.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFF8761BC05B730025A596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFF8771BC05B730025A596 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7BAFF8791BC05B730025A596 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7BAFF87C1BC05B730025A596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7BAFF87E1BC05B730025A596 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BAFF8811BC05B730025A596 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7BAFF8871BC05B730025A596 /* zoominatiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoominatiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BAFF88C1BC05B730025A596 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BAFF88D1BC05B730025A596 /* zoominatiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zoominatiTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BAFF86F1BC05B730025A596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFF8841BC05B730025A596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BAFF8691BC05B730025A596 = {
+			isa = PBXGroup;
+			children = (
+				7BAFF8741BC05B730025A596 /* zoominati */,
+				7BAFF88A1BC05B730025A596 /* zoominatiTests */,
+				7BAFF8731BC05B730025A596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BAFF8731BC05B730025A596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFF8721BC05B730025A596 /* zoominati.app */,
+				7BAFF8871BC05B730025A596 /* zoominatiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BAFF8741BC05B730025A596 /* zoominati */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFF8771BC05B730025A596 /* AppDelegate.swift */,
+				7BAFF8791BC05B730025A596 /* ViewController.swift */,
+				7BAFF87B1BC05B730025A596 /* Main.storyboard */,
+				7BAFF87E1BC05B730025A596 /* Images.xcassets */,
+				7BAFF8801BC05B730025A596 /* LaunchScreen.xib */,
+				7BAFF8751BC05B730025A596 /* Supporting Files */,
+			);
+			path = zoominati;
+			sourceTree = "<group>";
+		};
+		7BAFF8751BC05B730025A596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFF8761BC05B730025A596 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7BAFF88A1BC05B730025A596 /* zoominatiTests */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFF88D1BC05B730025A596 /* zoominatiTests.swift */,
+				7BAFF88B1BC05B730025A596 /* Supporting Files */,
+			);
+			path = zoominatiTests;
+			sourceTree = "<group>";
+		};
+		7BAFF88B1BC05B730025A596 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BAFF88C1BC05B730025A596 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BAFF8711BC05B730025A596 /* zoominati */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFF8911BC05B730025A596 /* Build configuration list for PBXNativeTarget "zoominati" */;
+			buildPhases = (
+				7BAFF86E1BC05B730025A596 /* Sources */,
+				7BAFF86F1BC05B730025A596 /* Frameworks */,
+				7BAFF8701BC05B730025A596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zoominati;
+			productName = zoominati;
+			productReference = 7BAFF8721BC05B730025A596 /* zoominati.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BAFF8861BC05B730025A596 /* zoominatiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BAFF8941BC05B730025A596 /* Build configuration list for PBXNativeTarget "zoominatiTests" */;
+			buildPhases = (
+				7BAFF8831BC05B730025A596 /* Sources */,
+				7BAFF8841BC05B730025A596 /* Frameworks */,
+				7BAFF8851BC05B730025A596 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7BAFF8891BC05B730025A596 /* PBXTargetDependency */,
+			);
+			name = zoominatiTests;
+			productName = zoominatiTests;
+			productReference = 7BAFF8871BC05B730025A596 /* zoominatiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BAFF86A1BC05B730025A596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = shdacks;
+				TargetAttributes = {
+					7BAFF8711BC05B730025A596 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7BAFF8861BC05B730025A596 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7BAFF8711BC05B730025A596;
+					};
+				};
+			};
+			buildConfigurationList = 7BAFF86D1BC05B730025A596 /* Build configuration list for PBXProject "zoominati" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7BAFF8691BC05B730025A596;
+			productRefGroup = 7BAFF8731BC05B730025A596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BAFF8711BC05B730025A596 /* zoominati */,
+				7BAFF8861BC05B730025A596 /* zoominatiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7BAFF8701BC05B730025A596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFF87D1BC05B730025A596 /* Main.storyboard in Resources */,
+				7BAFF8821BC05B730025A596 /* LaunchScreen.xib in Resources */,
+				7BAFF87F1BC05B730025A596 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFF8851BC05B730025A596 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BAFF86E1BC05B730025A596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFF87A1BC05B730025A596 /* ViewController.swift in Sources */,
+				7BAFF8781BC05B730025A596 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BAFF8831BC05B730025A596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BAFF88E1BC05B730025A596 /* zoominatiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7BAFF8891BC05B730025A596 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7BAFF8711BC05B730025A596 /* zoominati */;
+			targetProxy = 7BAFF8881BC05B730025A596 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BAFF87B1BC05B730025A596 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFF87C1BC05B730025A596 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7BAFF8801BC05B730025A596 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BAFF8811BC05B730025A596 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7BAFF88F1BC05B730025A596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7BAFF8901BC05B730025A596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BAFF8921BC05B730025A596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zoominati/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7BAFF8931BC05B730025A596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = zoominati/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7BAFF8951BC05B730025A596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zoominatiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoominati.app/zoominati";
+			};
+			name = Debug;
+		};
+		7BAFF8961BC05B730025A596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = zoominatiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zoominati.app/zoominati";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BAFF86D1BC05B730025A596 /* Build configuration list for PBXProject "zoominati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFF88F1BC05B730025A596 /* Debug */,
+				7BAFF8901BC05B730025A596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BAFF8911BC05B730025A596 /* Build configuration list for PBXNativeTarget "zoominati" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFF8921BC05B730025A596 /* Debug */,
+				7BAFF8931BC05B730025A596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7BAFF8941BC05B730025A596 /* Build configuration list for PBXNativeTarget "zoominatiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BAFF8951BC05B730025A596 /* Debug */,
+				7BAFF8961BC05B730025A596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BAFF86A1BC05B730025A596 /* Project object */;
+}
