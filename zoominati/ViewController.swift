@@ -37,10 +37,10 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
     
     // MARK: - UIImagePickerControllerDelegate Methods
     
-    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [NSObject : AnyObject]) {
+    func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
         if let pickedImage = info[UIImagePickerControllerOriginalImage] as? UIImage {
             imageView.contentMode = .ScaleAspectFit
-            imageView.image = pickedImage
+            imageView.image = drawTriangle(pickedImage);
         }
         
         dismissViewControllerAnimated(true, completion: nil)
@@ -49,6 +49,26 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    func drawTriangle (originalImage: UIImage) -> UIImage {
+        UIGraphicsBeginImageContext(originalImage.size);
+        let context = UIGraphicsGetCurrentContext();
+
+        originalImage.drawAtPoint(CGPointMake(0, 0));
+        //draw line on top of the image
+        CGContextSetLineWidth(context, 50.0);
+        CGContextMoveToPoint(context, originalImage.size.width/2, 0);
+        CGContextAddLineToPoint(context, originalImage.size.width/2, originalImage.size.width/4);
+        CGContextAddLineToPoint(context, originalImage.size.width/4, originalImage.size.width/4);
+        CGContextAddLineToPoint(context, originalImage.size.width/2, 0);
+        let red = UIColor(red: 255.0/255.0, green: 0.0/255.0, blue: 0.0/255.0, alpha: 1.0)
+        CGContextSetStrokeColorWithColor(context, red.CGColor);
+        CGContextStrokePath(context);
+        
+        let newImage = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        return newImage;
     }
     
 }
